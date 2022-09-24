@@ -42,8 +42,53 @@ section{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(img/14.jpg)no-repeat;
+    background: url(14.jpg)no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+}
+.main h2{
+    color: rgb(88, 88, 88);
+    font-size: 1.4em;
+    font-weight: 500;
+
+}
+.main h2 span{
+    display: inline-block;
+    margin-top: 10px;
+    color: #2276de;
+    font-size: 1.8em;
+    font-weight: 600;
+}
+.main h3{
+    color:rgb(88, 88, 88) ;
+    font-size: 1.3em;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+}
+.btn {
+      color:#ffffff ;
+      background-color: #2276de;
+      text-decoration: none;
+      font-size: 1.1em;
+      font-weight: 600;
+      display: inline-block;
+      padding: 1em 2em;
+      letter-spacing: 1px;
+      border-radius: 15px;
+      margin-bottom: 40px;
+      transition: 0.8s ease;
+}
+.btn:hover{
+    background-color: #601cfc;
+    transform: scale(1.1);
+}
+.social-icons a {
+    color: rgb(88, 88, 88);
+    font-size: 1.7em;
+    padding: 12px;
+
 }
